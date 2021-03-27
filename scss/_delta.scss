@@ -1,0 +1,77 @@
+.delta-calc {
+  width: 100%;
+  height: 100%;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+
+  .delta-text {
+    color: $White;
+    font-family: $Sig;
+    font-size: $Huge;
+    font-weight: $Bold;
+  }
+
+  .board {
+    background-color: $Blue;
+    padding: 20px;
+    height: 50vh;
+    width: 80vh;
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    .example {
+      color: $Darkblue;
+      font-family: $Sig;
+      font-size: $Huge;
+      font-weight: $Sem-b;
+    }
+  }
+
+  .inputs {
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .delta-alt-text {
+      color: $White;
+      font-family: $Sig;
+      font-size: $Huge;
+      font-weight: $Sem-b;
+    }
+
+    .delta-form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      width: 50%;
+
+      .delta-from-item {
+        margin: 10px 0 10px 0;
+        color: $White;
+        font-family: $Sig;
+        font-size: $Medium;
+        font-weight: $Med;
+      }
+
+      .delta-btn {
+        margin-top: 5px;
+        color: $White;
+        font-family: $Sig;
+        font-size: $Small;
+        font-weight: $Light;
+        border: 2px solid $Blue;
+        border-radius: 50%;
+        background-color: $Darkblue;
+        width: 100px;
+        height: 30px;
+      }
+    }
+  }
+}

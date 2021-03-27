@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="style.css">
+    <title>Math helper</title>
+</head>
+<body>
+    <header class="nav">
+        <div class="container">
+            <div class="logo"><img src="/imgs/logo.png" alt="Math word with math signs"></div>
+            <div class="nav-right">
+                <ul class="pseudo-nav">
+                    <li class="pseudo-nav-link"><a class="nav-link" href="#homeRoute" id="home-link">Home</a></li>
+                    <li class="pseudo-nav-link"><a class="nav-link" href="#" id="calc-link">Calc</a></li>
+                    <li class="pseudo-nav-link"><a class="nav-link" href="#deltaRoute" id="delta-link">Delta calc</a></li>
+                    <li class="pseudo-nav-link"><a class="nav-link" href="#pitRoute" id="pitagoras-link">Pitagoras calc</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main class="main-content">
+        <div class="container routs-container">
+            <div class="home active" id="homeRoute">
+                <div class="text">
+                    <h1 class="home-title">You are weak in mathe? You don't want to lose time for calculations? Use <strong class="math">MATHCalc</strong>!</h1>
+                </div> 
+                <div class="wrapper">
+                    <div class="home-container">
+                        <div class="home-item">
+                            <img class="home-img" src="/imgs/calc.png" alt="Calculator">
+                        </div>
+                        <h2 class="home-alt-text">Easy to use calculator, which will help you with all the calculations.</h2>
+                    </div>
+                    <div class="home-container">
+                        <div class="home-item">
+                            <img class="home-img" src="/imgs/delta.png" alt="Delta triangle">
+                        </div>
+                        <h2 class="home-alt-text">You don't know how to calculate delta? This tool is for you! The easiest way to calculate delta.</h2>
+                    </div>
+                    <div class="home-container">
+                        <div class="home-item">
+                            <p class="pitagoras">a<sup>2</sup>+ b<sup>2</sup>= c<sup>2</sup> </p>
+                        </div>
+                        <h2 class="home-alt-text">U always forget how to calculate pitagoras? U are too lazy to do it by yourself? Check Pitagoras calc!</h2>
+                    </div>
+                </div>  
+            </div>
+            <div class="delta-calc" id="deltaRoute">
+                <div class="delta-text">
+                    <h1 class="delta-title">Board</h1>
+                </div>
+                <div class="board" id="board">
+                    <p class="example">&trie; = b<sup>2</sup>- 4ac</p>
+                    <p class="example" id="example"></p>
+                    <p class="example" id="score"></p>
+                    <p class="example" id="root"></p>
+                    <p class="example" id="info"></p>
+                </div>
+                <div class="inputs">
+                    <h2 class="delta-alt-text">&#402;(x) = ax<sup>2</sup>+ bx + c</h2>
+                    <form class="delta-form">
+                        <label for="A" class="delta-from-item">A = <input type="number" id="A"></label> 
+                        <label for="B" class="delta-from-item">B = <input type="number" id="B"></label>
+                        <label for="C" class="delta-from-item">C = <input type="number" id="C"></label>
+                        <button class="delta-btn" id="calc-delta">Calc!</button>
+                    </form>
+                    
+                </div>
+            </div>
+            <div class="pit-calc" id="pitRoute">
+            </div>
+        </div>
+    </main>
+    <footer class="foot">
+        <div class="container">
+            <div class="copytight">
+                <h2 class="foot-text">© 2020 All right reserved</h2>
+            </div>
+            <div class="autor">
+                <h2 class="foot-text right">Made by Shenter666</h2>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

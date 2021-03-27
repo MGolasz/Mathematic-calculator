@@ -1,0 +1,30 @@
+.nav {
+  background-color: $Darkblue;
+  height: 10vh;
+
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-right {
+    display: flex;
+    justify-content: flex-end;
+    width: 100%;
+  }
+  .pseudo-nav {
+    @include reset-list;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .nav-link {
+      text-decoration: none;
+      color: $White;
+      font-family: $Sig;
+      font-size: $Huge;
+      font-weight: $Bold;
+      margin: 0 15px 0 15px;
+    }
+  }
+}

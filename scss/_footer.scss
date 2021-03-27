@@ -1,0 +1,30 @@
+.foot {
+  background-color: $Darkblue;
+  width: 100%;
+  display: flex;
+
+  .container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    .copytight {
+      width: 50%;
+      margin-bottom: 10px;
+    }
+    .autor {
+      width: 50%;
+      margin-bottom: 10px;
+    }
+    .foot-text {
+      color: $White;
+      font-family: $Sig;
+      font-size: $Small;
+      font-weight: $Light;
+    }
+
+    .right {
+      text-align: right;
+    }
+  }
+}
